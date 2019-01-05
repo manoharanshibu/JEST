@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Items from './components/Items';
 
 class App extends Component {
   render() {
+
+    const items = [
+      'Thor',
+      'Captain America',
+      'Hulk'
+    ];
+
     return (
       <div className="App">
         <header className="App-header">
@@ -20,6 +28,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Items items={items} />
       </div>
     );
   }
