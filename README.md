@@ -70,3 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 yarn test --coverage
 
 yarn add react-test-renderer - for snap shots
+yarn test --updateSnapshot
